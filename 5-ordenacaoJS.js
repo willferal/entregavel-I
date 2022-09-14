@@ -16,6 +16,6 @@ function quicksort(sequencia) {
     return quicksort(esquerda).concat(pivot, quicksort(direita));
   };
   
-  var unsorted = [23, 45, 16, 37, 3, 99, 22];
-  var sorted = quicksort(unsorted);
-  console.log(sorted)
+  var sequencia = [23, 45, 16, 37, 3, 99, 22];
+  var sequenciaQS = quicksort(sequencia);
+  console.log(sequenciaQS)
