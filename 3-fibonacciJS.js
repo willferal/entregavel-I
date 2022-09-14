@@ -1,4 +1,4 @@
-<script>
+
     
     var n = prompt("Informe a quantidade de numeros da sequencia: ")
     var term1 =0
@@ -14,4 +14,3 @@
         term2 = term3
     }
 
-</script>

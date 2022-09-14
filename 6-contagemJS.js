@@ -1,4 +1,4 @@
-<script>
+
 
     var n = prompt("Informe a quantidade de notas: ")
     var nota
@@ -18,4 +18,3 @@
 
     document.write("Numero de alunos que passaram no examo: "+ contNota)
 
-</script>
