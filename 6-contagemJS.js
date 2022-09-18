@@ -1,20 +1,15 @@
 
 
-    var n = prompt("Informe a quantidade de notas: ")
-    var nota
-    var contNota = 0
-    var i = 0
+    var n = prompt("Informe um numero: ")
+    var contador = 1
+    var i = 1
+    document.write("1")
+
+
 
     while (i < n) {
-       
-        nota = prompt("Informe uma nota: ")
-        
-        if(nota >= 7){
-            contNota = contNota + 1
-        }
         i++
-   
+        contador = contador + 1
+        document.write(", "+contador)
     }
-
-    document.write("Numero de alunos que passaram no examo: "+ contNota)
 

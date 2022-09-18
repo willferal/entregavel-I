@@ -1,23 +1,19 @@
+
 import java.util.Scanner;
 public class contagemJAVA {
     
     Scanner scn = new Scanner(System.in);
-    int n, nota, cont = 0, i = 0;
+    int n, cont = 1, i = 1;
 
     public void Contagem(){
-        System.out.println("Quantidade de alunos: ");
+        System.out.println("Digite um numero: ");
         int n = scn.nextInt();
+        System.out.println("1");
 
         while (i < n) {
-            i = i + 1;
-            System.out.println("Nota do aluno "+ i+ ": ");
-            if (nota < 7) {
-                cont = cont + 0;
-            }else {
-                cont = cont + 1;
-            }
-
+            i++;
+            cont = cont + 1;
+            System.out.println(", "+ cont);
         }
-        System.out.println("Sao "+ n+ " alunos e "+ cont+ " foram aprovados!");
     }
 }
