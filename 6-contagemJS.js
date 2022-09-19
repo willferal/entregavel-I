@@ -7,7 +7,7 @@
 
 
 
-    while (i < n) {
+    while (i < Math.trunc(n)) {
         i++
         contador = contador + 1
         document.write(", "+contador)
