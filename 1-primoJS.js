@@ -12,5 +12,5 @@
     if (contPrimo == 2) {
         document.write("O numero digitado e primo.");
     }else{
-        document.write("O numero digitado nao e primo");
+        document.write("O numero digitado não é primo");
     }
