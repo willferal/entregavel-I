@@ -12,8 +12,8 @@ function mdc(num1, num2){
 
     }while (restoDiv != 0);
 
-    return num1
+    document.write(num1)
 
 }
 
-mdc()
+mdc();
