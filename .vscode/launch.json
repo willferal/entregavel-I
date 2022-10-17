@@ -4,13 +4,13 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    
 
         {
-            "type": "chrome",
+            "type": "pwa-chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:5500",
-            "webRoot": "${workspaceFolder}"
+            "name": "open index.html",
+            "file": "C:\\Users\\willf\\OneDrive\\Documentos\\GitHub\\desenvolvimentoSistemas\\index.html"
         }
     ]
 }
