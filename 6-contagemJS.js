@@ -1,15 +1,16 @@
 
 
-    var n = prompt("Informe um numero: ")
-    var contador = 1
-    var i = 1
-    document.write("1")
+    var n = prompt("Informe a quantidade de numeros: ");
+    var contador = 1;
+    var i = 0;
+    var teste, inteiro;
 
 
-
-    while (i < Math.trunc(n)) {
-        i++
-        contador = contador + 1
-        document.write(", "+contador)
+    for(i = 0; i < n; i++){
+        teste = prompt("Digite um numero");
+        inteiro = teste - Math.trunc(teste); 
+        if (inteiro == 0) {
+            document.write(teste + " ")
+        }
     }
 
