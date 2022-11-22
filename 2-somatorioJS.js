@@ -1,13 +1,13 @@
-
-    var n = prompt("Informe a quantidade de numeros: ");
-    var numero;
-    var soma = 0;
+function funcaoSomatorio(array){
+    var somatorio = 0;
     var i = 0;
 
-    while (i < n) {
-        numero = parseInt(prompt("Informe um número: "));
-        soma = soma + numero;
+    while (i < array.length) {
+        somatorio += array[i];
         i ++;
     }
 
-    document.write("A soma dos " + n +" numero e: "+ soma );
+    return somatorio
+}
+
+module.exports = funcaoSomatorio;

@@ -1,7 +1,5 @@
-function mdc(num1, num2){
-    
-    var num1 = parseInt(prompt("Digite o primeiro numero"))
-    var num2 = parseInt(prompt("Digite o segundo numero"))
+function funcaoMdc(num1, num2){
+
     var restoDiv
 
     do{
@@ -12,8 +10,8 @@ function mdc(num1, num2){
 
     }while (restoDiv != 0);
 
-    document.write(num1)
+    return(num1)
 
 }
 
-mdc();
+module.exports = funcaoMdc;

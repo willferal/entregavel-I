@@ -1,16 +1,18 @@
 
-
-    var n = prompt("Informe a quantidade de numeros: ");
-    var contador = 1;
-    var i = 0;
-    var teste, inteiro;
-
-
-    for(i = 0; i < n; i++){
-        teste = prompt("Digite um numero");
-        inteiro = teste - Math.trunc(teste); 
-        if (inteiro == 0) {
-            document.write(teste + " ")
+function funcaoContagem(array){  
+    var testeInteiro
+    var finalVariable = [];
+    array = [23.15, 45, 16.15, 37, 3, 99.48, 22]
+    array.forEach(element => {
+        testeInteiro = element - Math.trunc(element);
+        if (testeInteiro == 0) {
+            finalVariable += element
         }
-    }
+    });
+    return finalVariable
+}
 
+funcaoContagem([23.15, 45, 16.15, 37, 3, 99.48, 22]);
+
+
+module.exports = funcaoContagem;
